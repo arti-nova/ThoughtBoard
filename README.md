@@ -1,6 +1,6 @@
-## Thoughtboard
+## ThoughtBoard
 
-Thoughtboard is a MERN stack application in which you can create, edit ,delete and manag your thoughts.
+ThoughtBoard is a MERN stack application in which you can create, edit ,delete and manag your thoughts.
 
 ## 🚀 Features
 
