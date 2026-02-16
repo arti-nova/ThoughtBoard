@@ -82,12 +82,11 @@ const CreatePage = () => {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> 
             </div>
         </div>
       </div>
-     </div>
+     </div>  
   );
-}
-
+};
 export default CreatePage;
