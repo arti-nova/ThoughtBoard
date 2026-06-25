@@ -27,7 +27,7 @@ cors({
 app.use(express.json()); // Middleware to parse JSON bodies
 app.use(rateLimit); // Apply rate limiting middleware
 
-app.use("/api/notes", notesRoutes);
+app.use("/notes", notesRoutes);
  
 if(process.env.NODE_ENV ==="production") {
    app.use(express.static(path.join(__dirname,"../frontend/dist")));
