@@ -14,15 +14,16 @@ const PORT = process.env.PORT || 5001;
 const __dirname =path.resolve()
 
 // Middleware
-if(process.env.NODE_ENV !== "production") { 
-app.use
-(cors({
-   origin: ['http://localhost:5173',
-    'https://thought-board-seven.vercel.app'
+
+app.use(
+cors({
+   origin: ['http://localhost:5173', 
+          'https://thought-board-seven.vercel.app',
    ]
   })
 );
-};
+
+
 app.use(express.json()); // Middleware to parse JSON bodies
 app.use(rateLimit); // Apply rate limiting middleware
 
